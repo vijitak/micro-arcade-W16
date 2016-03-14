@@ -237,21 +237,21 @@ For the button, you want to position it on your breadboard so that the legs on o
     * The LAT (latch) pin tells the screen that it's the end of the current set of data.
     * The OE (output enable) pin tells the screen to move to the next row of LEDs.
 
-3. On your ribbon cable, take a look at the connectors - one side of each connector has a bump, which fits into the corresponding gap in the Arduino input connector. If you lay the cable flat, then the pins on the two ends of the cable correspond like this:
+4. On your ribbon cable, take a look at the connectors - one side of each connector has a bump, which fits into the corresponding gap in the Arduino input connector. If you lay the cable flat, then the pins on the two ends of the cable correspond like this:
 
     ![How the ribbon cable is wired when it's lying flat](readme_files/flat-cable-connections.png)
 
-4. Plug one end of your ribbon cable into the input connector in your LED screen, then flip the screen back over and lay everything flat again. Because the LED screen is now flipped from when you were reading the pin labels, the pins are also flipped. That is, for the unplugged end of the cable, the corresponding labels would be(NOTE: MAKE SURE THE RED STRIPE IS AT THE TOP LIKE IN THE BELOW IMAGE):
+5. Plug one end of your ribbon cable into the input connector in your LED screen, then flip the screen back over and lay everything flat again. Because the LED screen is now flipped from when you were reading the pin labels, the pins are also flipped. That is, for the unplugged end of the cable, the corresponding labels would be(NOTE: MAKE SURE THE RED STRIPE IS AT THE TOP LIKE IN THE BELOW IMAGE):
 
     ![The labels from the LED screen are flipped on the other end of the ribbon cable](readme_files/flipped-cable-pins.png)
 
-5. Just one more thing before we begin wiring. By convention, different colored wires are used for different things, so that it's easier to separate them. The most common convention is to use red wires for power, and black wires for ground. In this project, we will also be using wires that represent the red, green, and blue values of LEDs. If you don't have wires of these colors, don't worry - you can still do the project, you'll just have to keep track of the different wires more carefully.
+6. Just one more thing before we begin wiring. By convention, different colored wires are used for different things, so that it's easier to separate them. The most common convention is to use red wires for power, and black wires for ground. In this project, we will also be using wires that represent the red, green, and blue values of LEDs. If you don't have wires of these colors, don't worry - you can still do the project, you'll just have to keep track of the different wires more carefully.
 
-5. Now we're ready to start wiring. First, four of the input connector pins should be grounded (i.e., connected to ground). Since we only have three ground pins on the Arduino, we will need to use the breadboard. Take a wire - preferably black - and gently insert it into one of the ground pins on the Arduino. Take the other end and insert it into a hole on the breadboard next to one of the blue lines.
+7. Now we're ready to start wiring. First, four of the input connector pins should be grounded (i.e., connected to ground). Since we only have three ground pins on the Arduino, we will need to use the breadboard. Take a wire - preferably black - and gently insert it into one of the ground pins on the Arduino. Take the other end and insert it into a hole on the breadboard next to one of the blue lines.
 
-7. All the GND pins on the cable should be wired to other holes next to the same blue line. This connects those pins to the breadboard, which connects to ground on the Arduino.
+8. All the GND pins on the cable should be wired to other holes next to the same blue line. This connects those pins to the breadboard, which connects to ground on the Arduino.
 
-8. The remaining wires go directly between the Arduino and the cable. The wirings, Arduino -> cable, are listed below. Make sure you do each one correctly; once everything is wired, it becomes much more difficult to check that a wire is connecting the right pins. The pin labels are included again for easy reference.
+9. The remaining wires go directly between the Arduino and the cable. The wirings, Arduino -> cable, are listed below. Make sure you do each one correctly; once everything is wired, it becomes much more difficult to check that a wire is connecting the right pins. The pin labels are included again for easy reference.
 
     * 2 -> R1
     * 3 -> G1
@@ -268,17 +268,17 @@ For the button, you want to position it on your breadboard so that the legs on o
 
     ![The labels from the LED screen are flipped on the other end of the ribbon cable](readme_files/flipped-cable-pins.png)
 
-9. Double check that everything is wired correctly. There should be one (1) wire between the Arduino and the breadboard, four (4) wires between the breadboard and the LED screen, and twelve (12) wires between the Arduino and the LED screen. (You will have more if you've wired the potentiometer and/or the button.)
+10. Double check that everything is wired correctly. There should be one (1) wire between the Arduino and the breadboard, four (4) wires between the breadboard and the LED screen, and twelve (12) wires between the Arduino and the LED screen. (You will have more if you've wired the potentiometer and/or the button.)
 
-9. Connect the Arduino to your computer with the USB cable.
+11. Connect the Arduino to your computer with the USB cable.
 
-10. Connect the LED screen to the power converter, and plug the power converter into a wall socket.
+12. Connect the LED screen to the power converter, and plug the power converter into a wall socket.
 
-11. Wait for one minute, keeping an eye on the Arduino. The LEDs may remain off, or they may flicker depending on what is currently stored in the Arduino. Gently touch the chip on the Arduino (the large black rectangle in the middle), and make sure that it is not getting hot. **If the Arduino gets hot, immediately unplug both the Arduino from your computer and the power converter from the wall socket.** You probably wired your screen incorrect if this happens, and will need to check all your wires.
+13. Wait for one minute, keeping an eye on the Arduino. The LEDs may remain off, or they may flicker depending on what is currently stored in the Arduino. Gently touch the chip on the Arduino (the large black rectangle in the middle), and make sure that it is not getting hot. **If the Arduino gets hot, immediately unplug both the Arduino from your computer and the power converter from the wall socket.** You probably wired your screen incorrect if this happens, and will need to check all your wires.
 
-12. If after a minute everything still looks fine - no smoke, the Arduino is at room temperature - then your Arduino is ready to be programed!
+14. If after a minute everything still looks fine - no smoke, the Arduino is at room temperature - then your Arduino is ready to be programed!
 
-13. You know you wired everything correctly if you run the plasma sample and it looks like this: https://www.youtube.com/watch?v=C_9GDqs-zDY
+15. You know you wired everything correctly if you run the plasma sample and it looks like this: https://www.youtube.com/watch?v=C_9GDqs-zDY
 
 ## Software
 
@@ -288,7 +288,7 @@ For the button, you want to position it on your breadboard so that the legs on o
 
     `git clone https://github.com/eecs183/Arduino_<###>_repository.git`
     
-    where `<###>` is the number of your group's repository. **Be sure to clone your group's repository, NOT that of the micro-arcade-F15 specification!**
+    where `<###>` is the number of your group's repository. **Be sure to clone your group's repository, NOT that of the micro-arcade-W16 specification!**
 
 2. [Download the Arduino IDE](http://arduino.cc/en/Main/Software). Although there are Xcode and Visual Studio plugins for Arduino, the staff will **not** support them.
 
@@ -411,9 +411,9 @@ As well as these warm-up questions about the project:
 ## Step 2 of 2
 
 Only one person per team needs to complete the following instructions.
-Submit your proposals in PDF format by **Fri 11/20** to [EECS 183 on Gradescope](https://gradescope.com/courses/609).
+Submit your proposals in PDF format by **Fri 3/25** to [EECS 183 on Gradescope](https://gradescope.com/courses/2688).
 
-* Head to [EECS 183 on Gradescope](https://gradescope.com/courses/609). Then choose **Proposal: Arduino** from the assignments list. Select **Submit PDF** and upload your proposal.pdf.
+* Head to [EECS 183 on Gradescope](https://gradescope.com/courses/2688). Then choose **Proposal: Arduino** from the assignments list. Select **Submit PDF** and upload your proposal.pdf.
 * Once the PDF file has been uploaded, select pages corresponding to each part (i.e., question) of the proposal assignment. Click **Save**.
 * Click on **Add Group Member** on the top right. Add the three other members of your team by typing their names or email addresses. Once everyone on your team is in the list, click **Save**. Everyone who has been added to the group on Gradescope will receive an email and will be able to access the submission, including the score and staff's comments after the proposal has been graded.
 
@@ -434,8 +434,7 @@ The Arduino Micro Arcade staff team has the following staff members.
 * Anna Wasewicz
 * Bill Arthur
 * Diana Slaba
-* Helen Hagos
-* Matt Hicks
+* Pranav Srinivasan
 
 # References
 
