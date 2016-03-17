@@ -34,6 +34,7 @@ Here's a picture of what your final product might look like:
 * [Reach](#reach)
 * [Proposal](#proposal)
 * [Submission](#submission)
+* [Grading](#grading)
 * [Troubleshooting](#troubleshooting)
 * [Support Staff](#support-staff)
 * [References](#references)
@@ -189,7 +190,7 @@ Finally, the cannonball fired by the player takes two LEDs, vertically on top of
 
 ### Game Dynamics
 
-The player is controlled by the potentiometer, and when the button is pressed, a cannonball should shoot out from the top middle LED. The cannon should be able to shoot from any column of the board; this means that the base of your cannon should be able to move one pixel off the edge of the screen, with the barrel appearing on the edge. When you shoot, the shot should be visible until you reach a creature or until it moves off of the top of the board. Both the cannonball and the invader should disappear if the ball would move on top of the invader. Finally the bottom row of invaders should move down by one LED every few seconds. Only once the bottom row of invaders is completely destroyed, the top row of invaders should start moving down. If an invader overlaps with the player, then the player loses a life. The game continues until the player has lost all three lives. It is up to you what ou want to do after displaying "Game Over". You can either restart the game or keep displaying "Game Over".
+The player is controlled by the potentiometer, and when the button is pressed, a cannonball should shoot out from the top middle LED. The cannon should be able to shoot from any column of the board; this means that the base of your cannon should be able to move one pixel off the edge of the screen, with the barrel appearing on the edge. When you shoot, the shot should be visible until you reach a creature or until it moves off of the top of the board. Both the cannonball and the invader should disappear if the ball would move on top of the invader. Finally the bottom row of invaders should move down by one LED every few seconds. Only once the bottom row of invaders is completely destroyed, the top row of invaders should start moving down. If an invader overlaps with the player, then the player loses a life. The game continues until the player has lost all three lives. It is up to you what you want to do after displaying "Game Over". You can either restart the game or keep displaying "Game Over".
 
 Given this description, the key part of your code will need to do the following:
 
@@ -426,6 +427,19 @@ Submit your proposals in PDF format by **Fri 3/25** to [EECS 183 on Gradescope](
 # Project Submission
 
 Submissions will occur via your team GitHub repository. You will create a sketch file starting from the distribution code. Your entire implementation will be in this one file. We will retrieve your file from your group repository on the due date. We are not grading the functions separately. We will run your game on a board and make sure everything that is specified happens correctly or points will be deducted. Do not just write your code without continuously testing it on the board. It will be exceptionally hard to debug that way.
+
+# Grading Point Distribution and Dates
+
+| Project Component   | Maximum Points | Due Date | How to Submit |
+|:-------------------:|:--------------:|:--------:|:-------------:|
+|Proposal             |      10         |  3/25   | Gradescope |
+|Core Team Evaluation |      5         |    4/8   |TBD        |
+|Core                 |      45        |    4/8   |GitHub         |
+|Style                 |      5        |    4/8   |GitHub         |
+|Reach                |      50        |     4/18    |GitHub         |
+|Final Team Evaluation|      5         |     4/19    |TBD        |
+|Showcase             |      10        |    4/21     |Attendance + Presentation     |
+
 
 # Troubleshooting
 
