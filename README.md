@@ -417,7 +417,7 @@ As well as these warm-up questions about the project:
 ## Step 2 of 2
 
 Only one person per team needs to complete the following instructions.
-Submit your proposals in PDF format by **Fri 3/25** to [EECS 183 on Gradescope](https://gradescope.com/courses/2688).
+Submit your proposals in PDF format by **Sat 3/26** to [EECS 183 on Gradescope](https://gradescope.com/courses/2688).
 
 * Head to [EECS 183 on Gradescope](https://gradescope.com/courses/2688). Then choose **Proposal: Arduino** from the assignments list. Select **Submit PDF** and upload your proposal.pdf.
 * Once the PDF file has been uploaded, select pages corresponding to each part (i.e., question) of the proposal assignment. Click **Save**.
