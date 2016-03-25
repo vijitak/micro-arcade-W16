@@ -24,7 +24,6 @@ RGBmatrixPanel matrix(A, B, C, CLK, LAT, OE, false);
 void print_level(int level);
 void print_lives(int lives);
 void game_over();
-void player_wins();
 
 class Color {
   public:
@@ -278,6 +277,3 @@ void print_lives(int lives) {
 void game_over() {
 }
 
-// displays "you win!"
-void player_wins() {
-}
