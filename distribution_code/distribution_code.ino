@@ -255,6 +255,222 @@ void setup() {
   Serial.begin(9600);
   pinMode(BUTTON_PIN_NUMBER, INPUT);
   matrix.begin();
+
+  // LETTER E
+  matrix.drawPixel(26,15,GREEN.to_333());
+  matrix.drawPixel(26,14,GREEN.to_333());
+  matrix.drawPixel(26,13,GREEN.to_333());
+  matrix.drawPixel(26,12,GREEN.to_333());
+  matrix.drawPixel(26,11,GREEN.to_333());
+  matrix.drawPixel(26,13,GREEN.to_333());
+  
+
+  matrix.drawPixel(25,15,GREEN.to_333());
+  matrix.drawPixel(24,15,GREEN.to_333());
+
+ 
+ 
+
+  matrix.drawPixel(25,13,GREEN.to_333());
+  matrix.drawPixel(24,13,GREEN.to_333());
+
+  matrix.drawPixel(25,11,GREEN.to_333());
+  matrix.drawPixel(24,11,GREEN.to_333());
+
+ 
+  
+  // LETTER N 
+
+  matrix.drawPixel(22,15,GREEN.to_333());
+  matrix.drawPixel(22,14,GREEN.to_333());
+  matrix.drawPixel(22,13,GREEN.to_333());
+  matrix.drawPixel(22,12,GREEN.to_333());
+  matrix.drawPixel(22,11,GREEN.to_333());
+  matrix.drawPixel(21,14,GREEN.to_333());
+  matrix.drawPixel(20,13,GREEN.to_333());
+  matrix.drawPixel(18,13,GREEN.to_333());
+  matrix.drawPixel(18,14,GREEN.to_333());
+  matrix.drawPixel(19,12,GREEN.to_333());
+  matrix.drawPixel(18,15,GREEN.to_333());
+  matrix.drawPixel(18,12,GREEN.to_333());
+  matrix.drawPixel(18,11,GREEN.to_333());
+
+  //T
+
+  matrix.drawPixel(16,15,GREEN.to_333());
+  matrix.drawPixel(15,15,GREEN.to_333());
+  matrix.drawPixel(14,15,GREEN.to_333());
+  matrix.drawPixel(15,14,GREEN.to_333());
+  matrix.drawPixel(15,13,GREEN.to_333());
+  matrix.drawPixel(15,12,GREEN.to_333());
+  matrix.drawPixel(15,11,GREEN.to_333());
+
+  //E
+
+  matrix.drawPixel(12,15,GREEN.to_333());
+  matrix.drawPixel(12,14,GREEN.to_333());
+  matrix.drawPixel(12,13,GREEN.to_333());
+  matrix.drawPixel(12,12,GREEN.to_333());
+  matrix.drawPixel(12,11,GREEN.to_333());
+  matrix.drawPixel(12,13,GREEN.to_333());
+  
+
+  matrix.drawPixel(10,15,GREEN.to_333());
+  matrix.drawPixel(11,15,GREEN.to_333());
+
+ 
+ 
+
+  matrix.drawPixel(11,13,GREEN.to_333());
+  matrix.drawPixel(10,13,GREEN.to_333());
+
+  matrix.drawPixel(11,11,GREEN.to_333());
+  matrix.drawPixel(10,11,GREEN.to_333());
+
+
+  //R
+  matrix.drawPixel(8,15,GREEN.to_333());
+  matrix.drawPixel(8,14,GREEN.to_333());
+  matrix.drawPixel(8,13,GREEN.to_333());
+  matrix.drawPixel(8,12,GREEN.to_333());
+  matrix.drawPixel(8,11,GREEN.to_333());
+ 
+
+  matrix.drawPixel(7,15,GREEN.to_333());
+  matrix.drawPixel(6,15,GREEN.to_333());
+  matrix.drawPixel(6,14,GREEN.to_333());
+  matrix.drawPixel(6,13,GREEN.to_333());
+  matrix.drawPixel(7,13,GREEN.to_333());
+
+  matrix.drawPixel(7,12,GREEN.to_333());
+  matrix.drawPixel(6,11,GREEN.to_333());
+
+
+//T
+  matrix.drawPixel(20,9,GREEN.to_333());
+  matrix.drawPixel(22,9,GREEN.to_333());
+  matrix.drawPixel(21,9,GREEN.to_333());
+  matrix.drawPixel(21,9,GREEN.to_333());
+  matrix.drawPixel(21,8,GREEN.to_333());
+  matrix.drawPixel(21,7,GREEN.to_333());
+  matrix.drawPixel(21,6,GREEN.to_333());
+  matrix.drawPixel(21,5,GREEN.to_333());
+
+  //H
+  matrix.drawPixel(19,9,GREEN.to_333());
+  matrix.drawPixel(19,8,GREEN.to_333());
+  matrix.drawPixel(19,7,GREEN.to_333());
+  matrix.drawPixel(18,7,GREEN.to_333());
+  matrix.drawPixel(17,7,GREEN.to_333());
+  matrix.drawPixel(19,6,GREEN.to_333());
+  matrix.drawPixel(19,5,GREEN.to_333());
+  matrix.drawPixel(17,9,GREEN.to_333());
+  matrix.drawPixel(17,8,GREEN.to_333());
+  matrix.drawPixel(17,7,GREEN.to_333());
+  matrix.drawPixel(17,6,GREEN.to_333());
+  matrix.drawPixel(17,5,GREEN.to_333());
+
+  //E
+
+  matrix.drawPixel(15,9,GREEN.to_333());
+  matrix.drawPixel(15,8,GREEN.to_333());
+  matrix.drawPixel(15,7,GREEN.to_333());
+  matrix.drawPixel(15,6,GREEN.to_333());
+  matrix.drawPixel(15,5,GREEN.to_333());
+  matrix.drawPixel(15,7,GREEN.to_333());
+  
+
+  matrix.drawPixel(14,9,GREEN.to_333());
+  matrix.drawPixel(13,9,GREEN.to_333());
+
+ 
+ 
+
+  matrix.drawPixel(14,7,GREEN.to_333());
+  matrix.drawPixel(13,7,GREEN.to_333());
+
+  matrix.drawPixel(14,5,GREEN.to_333());
+  matrix.drawPixel(13,5,GREEN.to_333());
+
+ //M
+
+  matrix.drawPixel(29,3,GREEN.to_333());
+  matrix.drawPixel(29,2,GREEN.to_333());
+  matrix.drawPixel(28,2,GREEN.to_333());
+  matrix.drawPixel(27,1,GREEN.to_333());
+  matrix.drawPixel(26,2,GREEN.to_333());
+
+  matrix.drawPixel(29,1,GREEN.to_333());
+  matrix.drawPixel(29,0,GREEN.to_333());
+
+  matrix.drawPixel(25,3,GREEN.to_333());
+  matrix.drawPixel(25,2,GREEN.to_333());
+
+  matrix.drawPixel(25,1,GREEN.to_333());
+  matrix.drawPixel(25,0,GREEN.to_333());
+
+  //A
+  matrix.drawPixel(23,0,GREEN.to_333());
+  matrix.drawPixel(23,1,GREEN.to_333());
+  matrix.drawPixel(23,2,GREEN.to_333());
+  matrix.drawPixel(23,3,GREEN.to_333());
+  matrix.drawPixel(22,3,GREEN.to_333());
+  matrix.drawPixel(21,3,GREEN.to_333());
+
+  matrix.drawPixel(23,1,GREEN.to_333());
+  matrix.drawPixel(22,1,GREEN.to_333());
+  matrix.drawPixel(21,1,GREEN.to_333());
+
+
+  matrix.drawPixel(21,3,GREEN.to_333());
+  matrix.drawPixel(21,2,GREEN.to_333());
+
+  matrix.drawPixel(21,1,GREEN.to_333());
+  matrix.drawPixel(21, 0,GREEN.to_333());
+
+//T
+
+  matrix.drawPixel(19,3,GREEN.to_333());
+  matrix.drawPixel(18,3,GREEN.to_333());
+  matrix.drawPixel(17,3,GREEN.to_333());
+  matrix.drawPixel(18,2,GREEN.to_333());
+  matrix.drawPixel(18,1,GREEN.to_333());
+  matrix.drawPixel(18,0,GREEN.to_333());
+
+  //R
+
+  matrix.drawPixel(15,3,GREEN.to_333());
+  matrix.drawPixel(15,2,GREEN.to_333());
+  matrix.drawPixel(15,1,GREEN.to_333());
+  matrix.drawPixel(15,0,GREEN.to_333());
+  
+ 
+
+  matrix.drawPixel(14,3,GREEN.to_333());
+  matrix.drawPixel(13,3,GREEN.to_333());
+  matrix.drawPixel(13,2,GREEN.to_333());
+  matrix.drawPixel(14,2,GREEN.to_333());
+  matrix.drawPixel(13,0,GREEN.to_333());
+  matrix.drawPixel(14,1,GREEN.to_333());
+
+//I
+
+ matrix.drawPixel(11,0,GREEN.to_333());
+ matrix.drawPixel(11,1,GREEN.to_333());
+ matrix.drawPixel(11,2,GREEN.to_333());
+ matrix.drawPixel(11,3,GREEN.to_333());
+
+ matrix.drawPixel(9,3,GREEN.to_333());
+ matrix.drawPixel(8,2,GREEN.to_333());
+ matrix.drawPixel(7,1,GREEN.to_333());
+ matrix.drawPixel(6,0,GREEN.to_333());
+
+ matrix.drawPixel(6,3,GREEN.to_333());
+ matrix.drawPixel(7,2,GREEN.to_333());
+ matrix.drawPixel(8,1,GREEN.to_333());
+ matrix.drawPixel(9,0,GREEN.to_333());
+  
+
 }
 
 // see http://arduino.cc/en/Reference/Loop
